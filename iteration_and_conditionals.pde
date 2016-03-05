@@ -8,8 +8,8 @@ void setup() {
 
 void draw() {
   background(155);
-  ellipse(x, 200, 100, 100);
-  x += 2;
-  ellipse(200, y, 100, 100);
-  y += 2;
+  ellipse(x, y, 100, 100);
+  x += 1;
+  y += 1;
+  
 }
