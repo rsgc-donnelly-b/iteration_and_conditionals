@@ -6,7 +6,11 @@ void setup() {
 }
 
 void draw() {
+  background(155);
+  ellipse(x, 100, 50, 50);
   x += 1;
+  
+  
   println("In draw function, x has this value: ");
   println(x);
 }
