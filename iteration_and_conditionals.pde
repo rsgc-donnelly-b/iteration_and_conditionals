@@ -6,6 +6,11 @@ void setup() {
 }
 
 void draw() {
-  background(155);
-  line(20, 20, 10, 100);
+  background(255);
+  x += 1;
+  if (x % 10 == 0){
+  line(5 * x + 20, 20, 5 * x + 10, 100);
+  line(5 * x + 20, 170, 5 * x + 10, 100);
+  
+  }
 }
